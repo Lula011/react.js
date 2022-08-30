@@ -1,0 +1,49 @@
+
+
+body{
+    background-color: rgb(194, 182, 182);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+  
+  
+}
+li {
+  display: inline;
+  margin: 20px;
+  font-size: 20px;
+  float:left;
+  display: flex;
+  
+    
+  
+}
+
+ul li a{
+    color: black;
+    display: block;
+    padding: 8px;
+  
+}
+
+h1{
+    font-size: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+p{
+       font-size: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+img{
+     margin-top: 20px;
+}
+
