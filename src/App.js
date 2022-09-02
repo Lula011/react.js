@@ -1,12 +1,12 @@
 
+import NavBar from "./components/NavBar"
+import ItemListContainer from './components/NavBar/ItemListContainer'
 
-import NavBar from "./components/NavBar";
-import styles from "./app/styles.css";
-
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <NavBar />
+      <ItemListContainer car={321} />
     </div>
   );
 }
