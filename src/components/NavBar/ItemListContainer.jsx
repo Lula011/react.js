@@ -1,10 +1,15 @@
 import React from 'react'
 import CartWidget from './CartWidget'
+import ItemCount from './ItemCount'
 
-export function ItemListContainer({ car }) {
+const ItemListContainer = (props) => {
     return (
-        <div> Landing in {car} </div>
+        <div className='contador'>
+            <ItemCount stock='5' />
+        </div>
+
     )
 }
+
 
 export default ItemListContainer
