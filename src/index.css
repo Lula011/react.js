@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.container{
+    display:block;
+    justify-content:flex-start;
+}
+
+.img__{
+    margin: 10px;
+}
