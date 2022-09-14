@@ -1,4 +1,4 @@
-import React from 'react'
+
 import ItemCount from './ItemCount'
 import ItemList from './ItemList'
 import { useState } from 'react'
@@ -15,12 +15,10 @@ const ItemListContainer = ({ productos }) => {
 
 
     return (
-        <div
 
-            className='contador'>
-            <ItemCount stock='5' />
+        <>
             <ItemList data={data} />
-        </div>
+        </>
 
     )
 }

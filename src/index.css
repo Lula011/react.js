@@ -3,11 +3,48 @@
 @tailwind utilities;
 
 
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
 .container{
-    display:block;
-    justify-content:flex-start;
+    padding: 10px;
+    width: 100%;
+    display: block;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
 }
 
-.img__{
-    margin: 10px;
+.card__perfil{
+    justify-items: center;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+img{
+   text-align: center;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+
+.contenedorDetail{
+     padding: 20px;
+    width: 100%;
+    display: block;
+    gap: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.card__1{
+       justify-items: center;
+    width: 400px;
+    padding: 20px;
+    box-shadow: 1px 1px 5px gray;
 }
