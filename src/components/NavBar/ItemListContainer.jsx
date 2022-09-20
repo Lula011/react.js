@@ -1,9 +1,9 @@
 
-import ItemCount from './ItemCount'
 import ItemList from './ItemList'
 import { useState } from 'react'
 import { useEffect } from 'react'
 import getData from './peticiones'
+
 
 const ItemListContainer = ({ productos }) => {
     const [data, setData] = useState([]);
@@ -25,4 +25,4 @@ const ItemListContainer = ({ productos }) => {
 
 
 
-export default ItemListContainer
+export default ItemListContainer;

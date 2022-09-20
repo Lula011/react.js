@@ -1,4 +1,3 @@
-
 const productos = [{
     id: '1',
     tittle: 'Planta Monstera',
