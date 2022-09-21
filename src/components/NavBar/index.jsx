@@ -1,6 +1,7 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
-import App from "../../App";
+
 
 const NavBar = () => {
     return (
@@ -9,31 +10,31 @@ const NavBar = () => {
                 <section class="relative mx-auto">
                     <nav class="flex justify-between bg-black text-white w-screen">
                         <div class="px-5 xl:px-12 flex w-full items-center">
-                            <a class="text-3xl font-bold font-heading" href="#">
+                            <NavLink class="text-3xl font-bold font-heading" href="#">
                                 <img class="h-24" src="./mn.png" alt="logo mn edit by @agustinleonel" />
 
-                            </a>
+                            </NavLink>
 
                             <ul class="hidden md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                                 <li>
-                                    <a class="hover:text-[#FEDB39] hover:underline underline-offset-8" href="#">
+                                    <NavLink class="hover:text-[#FEDB39] hover:underline underline-offset-8" to='/'>
                                         Home
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a class="hover:text-[#FEDB39] hover:underline underline-offset-8" href="#">
-                                        Catagory
-                                    </a>
+                                    <NavLink class="hover:text-[#FEDB39] hover:underline underline-offset-8" to='/category/Planta'>
+                                        Category
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a class="hover:text-[#FEDB39] hover:underline underline-offset-8" href="#">
+                                    <NavLink class="hover:text-[#FEDB39] hover:underline underline-offset-8" to='cart'>
                                         Collections
-                                    </a>
+                                    </NavLink>
                                 </li>
                                 <li>
-                                    <a class="hover:text-[#FEDB39] hover:underline underline-offset-8" href="#">
+                                    <NavLink class="hover:text-[#FEDB39] hover:underline underline-offset-8" to='detalle'>
                                         Contact Us
-                                    </a>
+                                    </NavLink>
                                 </li>
                             </ul>
 

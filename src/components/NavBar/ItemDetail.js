@@ -1,5 +1,6 @@
 import ItemCount from "./ItemCount";
 
+
 const ItemDetail = ({ detail }) => {
     return (
 
@@ -7,6 +8,7 @@ const ItemDetail = ({ detail }) => {
             <ul className="card__1">
                 <img src={detail.image} alt="productosDetail" />
                 <h1>{detail.tittle}</h1>
+                <li>{detail.category}</li>
                 <li>{detail.descripcion}</li>
                 <li>Precio:${detail.price}</li>
                 <li>{detail.cuotas}</li>
